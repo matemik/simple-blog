@@ -1,0 +1,46 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    background: lightgray;
+}
+
+.header {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.leftcol {
+    float: left;
+    width: 73%;
+}
+
+.rightcol {
+    float: right;
+    width: 25%;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card-img {
+    background-color: gray;
+    width: 100%;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
